@@ -1,0 +1,38 @@
+Specifications for Drone Fight
+
+Specifications that shouldn't change:
+- 64-bit operating system (Win EXE) or LOVE2D (Linux, Windows, Android, Raspberry Pi)
+- Low end graphics card (Tested with AMD Radeon HD 1500M/1600M Series, basically any card)
+
+Some specifications depend on the amount of drones you play with at once, but you shouldn't need more than 100:
+
+10 drones:
+- Intel Core i7 @3GHz with 12GB RAM - 60+ fps
+- Raspberry Pi 2B - 50-60 fps
+- Nexus 7 2012 - 50-60 fps
+
+100 drones:
+- Intel Core i7 @3GHz with 12GB RAM - 60+ fps
+- Raspberry Pi 2B - 20-40 fps
+- Nexus 7 2012 - 20-40 fps
+
+200 drones:
+- Intel Core i7 @3GHz with 12GB RAM - 30-50 fps
+- Raspberry Pi 2B - 2-10 fps
+- Nexus 7 2012 - 2-10 fps
+
+300 drones:
+- Intel Core i7 @3GHz with 12GB RAM - 20-25 fps
+- Raspberry Pi 2B - 1 fps
+- Nexus 7 2012 - 1 fps
+
+500 drones:
+- Intel Core i7 @3GHz with 12GB RAM - 7-10 fps
+- Raspberry Pi 2B - 1 fps
+- Nexus 7 2012 - 1 fps
+
+1000+ drones:
+- Why would you even need this many?
+- Intel Core i7 @3GHz with 12GB RAM - 2-5 fps
+- Raspberry Pi 2B - Just no.
+- Nexus 7 2012 - Why.
