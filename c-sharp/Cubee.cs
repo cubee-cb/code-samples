@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Ninja_Cat
+namespace << NAMESPACE HERE >>
 {
   class Cubee
   {
