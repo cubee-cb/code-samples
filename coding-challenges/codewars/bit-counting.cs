@@ -1,5 +1,6 @@
 using System;
 
+// returns the amount on ones in the binary representation of an integer
 public class Kata
 {
   public static int CountBits(int n)

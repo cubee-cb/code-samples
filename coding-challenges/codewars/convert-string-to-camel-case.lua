@@ -1,3 +1,4 @@
+-- takes a string as imput and returns it as camelCase, using - and _ as delimeters. capital starting letters are retained as PascalCase.
 return function(str)
   local out=""
   local i=1
