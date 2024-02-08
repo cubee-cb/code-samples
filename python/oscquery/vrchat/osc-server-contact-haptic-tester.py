@@ -22,8 +22,6 @@ defaultModuleIP = "192.168.0.113"
 #defaultModuleIP = "192.168.0.195"
 defaultModulePort = 9002
 
-#contactAddress = "/avatar/parameters/detector/headpat"
-
 # mainloop
 if __name__ == "__main__":
 
