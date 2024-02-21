@@ -24,9 +24,8 @@ https://github.com/attwad/python-osc
 # you can pass in these values via arguments
 # alternatively, you can just change these directly
 defaultVRChatIP = "0.0.0.0" # set this to the IP of the device running VRChat
-#defaultVRChatIP = "127.0.0.1" # set this to the IP of the device running VRChat
 defaultVRChatPort = 9001
-contactParameter = "pivibe/head" # the parameter that will control whis module
+contactParameter = "pivibe/head" # the parameter that will control this module
 outputVerbose = True
 
 
@@ -52,9 +51,11 @@ try:
 except:
   motorInitialised = False
 
+
 ## functions
 def Vibrate(address: str, args: list, effect: int):
   print("[{0}: {1}] ~ Playing effect {2}".format(address, args[0], effect))
+  effect = int(effect)
 
   # return early if the motor isn't initialised
   if not motorInitialised:
@@ -74,7 +75,6 @@ def Vibrate(address: str, args: list, effect: int):
     drv.sequence[0] = adafruit_drv2605.Effect(effect)
     drv.play()
 
-## functions
 def Debug(address: str, args: list, effect: int):
   print("[{0}: {1}] ~ Value {2}".format(address, args[0], effect))
 

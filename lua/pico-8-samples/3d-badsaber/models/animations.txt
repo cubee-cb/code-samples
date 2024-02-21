@@ -1,0 +1,9 @@
+bones
+- parent
+- list of vertices
+
+or
+- obj file has 'b arm' 'b body' etc to define bones
+- any vertex following this line is parented to that bone
+
+single verts are rendered as a circle

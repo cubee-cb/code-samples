@@ -1,4 +1,5 @@
 # Scholarly Complications
+https://cubee.games/?rel=PICO-8&sub=scholarly_complications
 A PICO-8 beat-em-up game about a bored teenager, her incredibly cool and underappreciated music teacher, and the sudden occurrence of a zombie apocalypse.
 
 ## Game data
