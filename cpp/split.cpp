@@ -5,7 +5,7 @@ vector<string> split(const string& input, char delimiter)
     vector<string> out;
     int delimiterPosition = 0;
 
-    // add first entry. also allows returning the input string if no delimiter is found
+    // add first entry. also allows returning a vector containing just the input string if no delimiter is found
     delimiterPosition = (int)(input.find(delimiter));
     out.push_back(input.substr(0, delimiterPosition));
 
